@@ -1,0 +1,284 @@
+<html><head><base href="https://epicsite.com/%D0%B2%D1%81%D0%B5%20%D1%81%D1%83%D0%BF%D0%B5%D1%80%20%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%8C%20%D0%B2%D1%81%D0%B5%20%D0%BA%D0%B0%D0%BA%20%D0%B5%D1%81%D1%82%D1%8C%20%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE%20%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D1%8C%20%D0%B5%D1%89%D0%B5%20%D0%BE%D0%B4%D0%B8%D0%BD%20%D0%BD%D0%B8%D0%BA%20SIGMA_REALLY_DPW">
+<title>Благодарность моим дорогим подписчикам</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.subscribers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.subscriber-frame {
+  background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: calc(25% - 20px);
+  box-sizing: border-box;
+}
+
+.subscriber-frame:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(255,215,0,0.5);
+}
+
+.subscriber-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.5);
+}
+
+#confetti-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.top-subscriber {
+  background: linear-gradient(to right, #FFD700, #FFA500);
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(255,215,0,0.5);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@media (max-width: 1200px) {
+  .subscriber-frame {
+    width: calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 900px) {
+  .subscriber-frame {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .subscriber-frame {
+    width: calc(100% - 20px);
+  }
+}
+
+@keyframes neonGlow {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff, 0 0 100px #00ffff, 0 0 150px #00ffff;
+  }
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00ffff, 0 0 35px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 75px #00ffff;
+  }
+}
+
+.neon-glow {
+  animation: neonGlow 1.5s ease-in-out infinite alternate;
+}
+</style>
+</head>
+<body>
+<h1>Спасибо моим дорогим подписчикам!</h1>
+
+<div class="subscribers-container">
+  <div class="subscriber-frame top-subscriber pulse">
+    <div class="subscriber-name">Sasha228</div>
+  </div>
+
+  <div class="subscriber-frame">
+    <a href="https://www.youtube.com/channel/UCoJaumdUZdqbJvbgNAWXLoQ" target="_blank" style="text-decoration: none; color: inherit;">
+      <div class="subscriber-name">Antitok</div>
+    </a>
+  </div>
+
+  <div class="subscriber-frame">
+    <a href="https://www.youtube.com/channel/UC8fxw4Bk51PPEvYzJzQDjAQ" target="_blank" style="text-decoration: none; color: inherit;">
+      <div class="subscriber-name">Helper</div>
+    </a>
+  </div>
+
+  <div class="subscriber-frame">
+    <div class="subscriber-name">depe</div>
+  </div>
+
+  <div class="subscriber-frame">
+    <div class="subscriber-name">Wizi_28</div>
+  </div>
+
+  <div class="subscriber-frame">
+    <div class="subscriber-name">Pankowet5977</div>
+  </div>
+
+  <div class="subscriber-frame">
+    <div class="subscriber-name">Depz_Drag</div>
+  </div>
+
+  <div class="subscriber-frame">
+    <div class="subscriber-name">Prizedent_GUS</div>
+  </div>
+
+  <div class="subscriber-frame">
+    <div class="subscriber-name">Vladatoputop_xxzxzxx</div>
+  </div>
+
+  <div class="subscriber-frame">
+    <div class="subscriber-name">nika</div>
+  </div>
+
+  <div class="subscriber-frame">
+    <div class="subscriber-name">veroni4ka</div>
+  </div>
+
+  <div class="subscriber-frame">
+    <div class="subscriber-name">lizo4ek_top</div>
+  </div>
+
+  <div class="subscriber-frame neon-glow">
+    <div class="subscriber-name">SIGMA_REALLY_DPW</div>
+  </div>
+</div>
+
+<canvas id="confetti-canvas"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script>
+// Функция для создания эффекта конфетти
+function throwConfetti() {
+  confetti({
+    particleCount: 100,
+    spread: 70,
+    origin: { y: 0.6 }
+  });
+}
+
+// Запускаем конфетти каждые 3 секунды
+setInterval(throwConfetti, 3000);
+
+// Анимация для рамок подписчиков
+const frames = document.querySelectorAll('.subscriber-frame');
+frames.forEach(frame => {
+  frame.addEventListener('mouseover', () => {
+    frame.style.transform = 'scale(1.1) rotate(5deg)';
+  });
+  frame.addEventListener('mouseout', () => {
+    frame.style.transform = frame.classList.contains('top-subscriber') ? 'scale(1.1)' : 'scale(1) rotate(0deg)';
+  });
+});
+
+// Добавляем эффект падающих звезд
+function createStar() {
+  const star = document.createElement('div');
+  star.style.position = 'fixed';
+  star.style.top = '-10px';
+  star.style.left = Math.random() * window.innerWidth + 'px';
+  star.style.width = '2px';
+  star.style.height = '2px';
+  star.style.backgroundColor = 'white';
+  star.style.borderRadius = '50%';
+  star.style.opacity = Math.random();
+  document.body.appendChild(star);
+
+  const animation = star.animate([
+    { transform: 'translateY(0px)' },
+    { transform: `translateY(${window.innerHeight + 10}px)` }
+  ], {
+    duration: Math.random() * 2000 + 3000,
+    easing: 'linear'
+  });
+
+  animation.onfinish = () => {
+    star.remove();
+    createStar();
+  };
+}
+
+// Создаем несколько звезд
+for (let i = 0; i < 20; i++) {
+  setTimeout(createStar, Math.random() * 3000);
+}
+
+// Добавляем специальный эффект для топового подписчика
+const topSubscriber = document.querySelector('.top-subscriber');
+setInterval(() => {
+  topSubscriber.style.boxShadow = `0 0 30px rgba(255,215,0,${Math.random() * 0.5 + 0.5})`;
+}, 1000);
+
+// Добавляем эффект случайного изменения цвета для новых подписчиков
+function randomColor() {
+  return `hsl(${Math.random() * 360}, 100%, 50%)`;
+}
+
+const newSubscribers = document.querySelectorAll('.subscriber-frame:not(.top-subscriber):not(.neon-glow)');
+newSubscribers.forEach(subscriber => {
+  setInterval(() => {
+    subscriber.style.background = `linear-gradient(to right, ${randomColor()}, ${randomColor()})`;
+  }, 5000);
+});
+
+// Добавляем эффект волны для имен подписчиков
+function waveEffect() {
+  const names = document.querySelectorAll('.subscriber-name');
+  names.forEach((name, index) => {
+    setTimeout(() => {
+      name.style.transform = 'scale(1.1)';
+      setTimeout(() => {
+        name.style.transform = 'scale(1)';
+      }, 200);
+    }, index * 100);
+  });
+}
+
+// Запускаем эффект волны каждые 5 секунд
+setInterval(waveEffect, 5000);
+
+// Добавляем эффект вращения для нового подписчика (SIGMA_REALLY_DPW)
+const newSubscriber = document.querySelector('.neon-glow');
+let rotation = 0;
+setInterval(() => {
+  rotation += 5;
+  newSubscriber.style.transform = `rotate(${rotation}deg)`;
+}, 100);
+
+// Добавляем эффект мерцания для нового подписчика (SIGMA_REALLY_DPW)
+function blinkEffect() {
+  newSubscriber.style.opacity = (newSubscriber.style.opacity === '1') ? '0.5' : '1';
+}
+
+setInterval(blinkEffect, 500);
+</script>
+</body></html>
